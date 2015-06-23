@@ -1,0 +1,19 @@
+{
+    "name": "mraiur/youtube-mp3-helper",
+    "type": "server",
+    "description": "Search for a music video and download it via youtube-dl as a mp3.",
+    "keywords": ["google"],
+    "homepage": "https://github.com/mraiur/youtube-mp3-helper",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.2.1",
+        "google/apiclient": "1.0.*@beta",
+        "piwik/ini" : "~1.0.4",
+        "nategood/commando": "*"
+    },
+    "autoload":{
+        "psr-4": {
+            "YoutubeHelper\\": "src/"
+        }
+    }
+}
